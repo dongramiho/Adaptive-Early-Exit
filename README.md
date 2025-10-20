@@ -61,7 +61,7 @@ where
   Exit Rate = 20.39%
   Edge Exit Accuracy = 95.36%
 
-🧠 Key Insight
+### Key Insight
 
 The proposed temporal consistency auxiliary metric enables early-exit
 even at semantically ambiguous intermediate layers by stabilizing inter-frame
@@ -69,10 +69,8 @@ feature variations, effectively mimicking the “temporal mean feature” strate
 
 This makes early-exit decision-making robust in dynamic scenes,
 while maintaining minimal computational overhead (<0.001% of total FLOPs).
-
-⸻
-
-🧩 Reference
+---
+### Reference
 
 🔹 Backbone & Dataset
 	•	ResNet-101 — He et al., Deep Residual Learning for Image Recognition, CVPR 2016
