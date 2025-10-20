@@ -20,7 +20,7 @@ stabilizing the ΔS distribution and enabling more reliable early-exit decisions
 
 ---
 
-## ⚙️ Methodology  
+## Methodology  
 
 ### 1. Feature Extraction  
 - **Backbone:** ResNet-101 (torchvision.models, pretrained on ImageNet1K_V2)  
@@ -37,7 +37,7 @@ frames = frames.mean(dim=1)      # temporal averaging
 
 ---
 
-### ⃣ 2. Semantic Center Construction  
+### 2. Semantic Center Construction  
 
 For each class `c`:
 
@@ -75,7 +75,7 @@ if precision(ΔS >= τ) >= 0.95:
 
 ---
 
-### ⃣ 4. Evaluation (Simulation)  
+### 4. Evaluation (Simulation)  
 
 - **Layer:** layer3 (ResNet-101)  
 - **Metric:** Exit Rate vs Edge Exit Accuracy  
@@ -113,5 +113,3 @@ while maintaining minimal computational overhead (<0.001% of total FLOPs).
 
 
 ---
-
-🧠 This work demonstrates that temporal feature consistency can serve as a reliable auxiliary signal for early-exit in edge–cloud collaborative inference.
