@@ -59,10 +59,10 @@ $ΔS = (S_top1 - S_top2) / (|S_top1| + |S_top2| + ε)$
 
 - Combine with temporal consistency (frame-wise cosine similarity):  
 
-Hybrid = α * ΔS + β * s_temp  
+$Hybrid = α * ΔS + β * s_temp$
 
 where:  
-s_temp = clip(dot(f_t-1, f_t), 0, 1)  
+$s_temp = clip(dot(f_t-1, f_t), 0, 1)$
 
 Typical values: α = 0.9, β = 0.1  
 
