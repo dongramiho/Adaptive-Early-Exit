@@ -55,7 +55,7 @@ semantic_center_c = mean(selected_features) / ||mean(selected_features)||
 
 - Measure semantic separability between top-1 and top-2 similarity scores:  
 
-ΔS = (S_top1 - S_top2) / (|S_top1| + |S_top2| + ε)
+$ΔS = (S_top1 - S_top2) / (|S_top1| + |S_top2| + ε)$
 
 - Combine with temporal consistency (frame-wise cosine similarity):  
 
