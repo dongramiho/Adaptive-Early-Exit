@@ -1,0 +1,8 @@
+{
+  "tau": 0.104,
+  "exit_rate": 0.15142642642642642,
+  "edge_exit_accuracy": 0.9707486365889936,
+  "overall_accuracy_oracle": 0.9955705705705705,
+  "exit_count": 2017,
+  "total": 13320
+}
